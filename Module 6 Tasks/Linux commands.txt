@@ -1,0 +1,32 @@
+1)  To create a new directory, type the following command 
+
+mkdir folder
+
+To create a new file called chap1, type the following command
+
+touch chap1.txt 
+
+
+2) To get the absolute path of a file named chap1, type the following command
+
+pwd -P
+
+
+3) To display the line, word, and byte(character) counts of the file named chap1, type the following:
+
+wc chap1
+
+To look at the last few lines of a file, type tail filename, of the file named chap1, type the following 
+
+tail chap1
+
+By default, head shows you the first 10 lines of a file. 
+We can change this by typing head -number filename, where number is the number of lines we want to see.
+
+To view the entire file named chap1, type the following command
+
+cat chap1
+
+To search the word "Linux" in the file named chap1, type the following command
+
+grep Linux chap1
